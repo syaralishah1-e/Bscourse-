@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheme of Studies - Semester 6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background-color: #f4f6f9; color: #333; }
+        .hero-section {
+            background: linear-gradient(135deg, #0f766e, #115e59);
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .hero-left { display: flex; align-items: center; gap: 12px; }
+        .hero-logo {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            background: #ffffff;
+            padding: 3px;
+            border-radius: 8px;
+        }
+        .hero-title h1 { font-size: 16px; font-weight: 700; text-transform: uppercase; line-height: 1.2; }
+        .hero-title p { font-size: 11px; color: #ccfbf1; margin-top: 2px; }
+        .user-profile {
+            font-size: 11px;
+            background: #ffffff;
+            color: #115e59;
+            padding: 6px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+        .nav-buttons {
+            max-width: 950px;
+            margin: 15px auto 0 auto;
+            padding: 0 10px;
+            display: flex;
+            gap: 10px;
+        }
+        .nav-btn {
+            background-color: #ffffff;
+            color: #0f766e;
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-block;
+            border: 1px solid #cbd5e1;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+            transition: background-color 0.2s;
+        }
+        .nav-btn:hover {
+            background-color: #f1f5f9;
+      }
+        .main-container { max-width: 950px; margin: 15px auto 30px auto; padding: 0 10px; }
+        .page-heading { 
+            font-size: 18px; 
+            font-weight: 700; 
+            color: #0f766e; 
+            margin-bottom: 12px; 
+            text-align: center; 
+            background: #e6fffa;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #b2f5ea;
+        }
+
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border: 1px solid #cbd5e1;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        th, td {
+            padding: 10px 12px;
+            border: 1px solid #cbd5e1;
+        }
+        th {
+            background-color: #0f766e;
+            color: white;
+            font-weight: 600;
+            text-align: center;
+        }
+        td {
+            color: #1e293b;
+        }
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .total-row {
+            font-weight: 700;
+            background-color: #e2e8f0 !important;
+        }
+      footer {
+            text-align: center;
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 20px;
+          }
+    
+    </style>
+</head>
+<body>
+    <header class="hero-section">
+        <div class="hero-left">
+            <img src="uni.jpg" alt="University Logo" class="hero-logo">
+            <div class="hero-title">
+                <h1>Department of Islamic & Arabic Studies</h1>
+                <p>University of Swabi</p>
+            </div>
+        </div>
+        <div class="user-profile">Welcome, Dr. Syar Ali Shah</div>
+    </header>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <a href="scheme_home.html" class="nav-btn">Dashboard ⌂</a>
+        <a href="scheme_sem5.html" class="nav-btn">← Back</a>
+        <a href="scheme_sem7.html" class="nav-btn">Next →</a>
+    </div>
+
+
+
+    <div class="main-container">
+        <div class="page-heading">Semester 6</div>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 8%;">S. No</th>
+                        <th style="width: 18%;">Course code</th>
+                        <th style="width: 38%;">Course Title</th>
+                        <th style="width: 26%;">Course category</th>
+                        <th style="width: 10%;">CRH</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td class="text-center">ISL-311</td>
+                        <td>Introduction to Islamic Countries</td>
+                        <td>Major-18</td>
+                        <td class="text-center">3</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td class="text-center">ISL-343</td>
+                        <td>Fiqh ul Halal-II</td>
+                        <td>Major-19</td>
+                        <td class="text-center">3</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">3</td>
+                        <td class="text-center">ISL-344</td>
+                        <td>Principles of Islamic Jurisprudence-II</td>
+                        <td>Major-20</td>
+                        <td class="text-center">3</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">4</td>
+                        <td class="text-center">ISL-345</td>
+                        <td>Textual Study of Muslim Family Laws-I</td>
+                        <td>Major-21</td>
+                        <td class="text-center">3</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">5</td>
+                        <td class="text-center">ISL-346</td>
+                        <td>Human Rights in Islamic Perspective</td>
+                        <td>Elective-2</td>
+                        <td class="text-center">3</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">6</td>
+                        <td class="text-center">ARB-312</td>
+                        <td>Arabic Language-II</td>
+                        <td>IDS-2</td>
+                        <td class="text-center">3</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td colspan="4" style="text-align: right; padding-right: 15px;">TOTAL</td>
+                        <td class="text-center">18</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+
+        <footer>
+            <p>&copy; 2026 Department of Islamic Studies, University of Swabi</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

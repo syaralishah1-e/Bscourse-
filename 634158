@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheme of Studies - Semester 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background-color: #f4f6f9; color: #333; }
+        .hero-section {
+            background: linear-gradient(135deg, #0f766e, #115e59);
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .hero-left { display: flex; align-items: center; gap: 12px; }
+        .hero-logo {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            background: #ffffff;
+            padding: 3px;
+            border-radius: 8px;
+        }
+        .hero-title h1 { font-size: 16px; font-weight: 700; text-transform: uppercase; line-height: 1.2; }
+        .hero-title p { font-size: 11px; color: #ccfbf1; margin-top: 2px; }
+        .user-profile {
+            font-size: 11px;
+            background: #ffffff;
+            color: #115e59;
+            padding: 6px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+      .nav-buttons {
+            max-width: 950px;
+            margin: 15px auto 0 auto;
+            padding: 0 10px;
+            display: flex;
+            gap: 10px;
+        }
+        .nav-btn {
+            background-color: #ffffff;
+            color: #0f766e;
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-block;
+            border: 1px solid #cbd5e1;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+            transition: background-color 0.2s;
+        }
+        .nav-btn:hover {
+            background-color: #f1f5f9;
+        }
+        .main-container { max-width: 950px; margin: 15px auto 30px auto; padding: 0 10px; }
+        .page-heading { 
+            font-size: 18px; 
+            font-weight: 700; 
+            color: #0f766e; 
+            margin-bottom: 12px; 
+            text-align: center; 
+            background: #e6fffa;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #b2f5ea;
+        }
+
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border: 1px solid #cbd5e1;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        th, td {
+            padding: 10px 12px;
+            border: 1px solid #cbd5e1;
+        }
+        th {
+            background-color: #0f766e;
+            color: white;
+            font-weight: 600;
+            text-align: center;
+        }
+        td {
+            color: #1e293b;
+        }
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .total-row {
+            font-weight: 700;
+            background-color: #e2e8f0 !important;
+        }
+        .sub-text {
+            font-size: 11px;
+            color: #64748b;
+            font-style: italic;
+            display: block;
+        }
+      footer {
+            text-align: center;
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 20px;
+          }
+    </style>
+</head>
+<body>
+    <header class="hero-section">
+        <div class="hero-left">
+            <img src="uni.jpg" alt="University Logo" class="hero-logo">
+            <div class="hero-title">
+                <h1>Department of Islamic & Arabic Studies</h1>
+                <p>University of Swabi</p>
+            </div>
+        </div>
+        <div class="user-profile">Welcome, Dr. Syar Ali Shah</div>
+    </header>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <a href="cont_sem6_dash.html" class="nav-btn">Dashboard ⌂</a>
+        <a href="semester7.html" class="nav-btn">← Back</a>
+        <a href="semester8_next.html" class="nav-btn">Next →</a>
+    </div>
+
+
+
+    <div class="main-container">
+        <div class="page-heading">Semester 2</div>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 8%;">S. No</th>
+                        <th style="width: 18%;">Course code</th>
+                        <th style="width: 38%;">Course Title</th>
+                        <th style="width: 26%;">Course category</th>
+                        <th style="width: 10%;">CRH</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">1</td>
+                        <td class="text-center">ISL-132</td>
+                        <td>Textual Study of Hadith-I</td>
+                        <td>Major-4</td>
+                        <td class="text-center">3</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">2</td>
+                        <td class="text-center">ISL-161</td>
+                        <td>Introduction to world Religions-I (Judaism and Christianity)</td>
+                        <td>Major-5</td>
+                        <td class="text-center">3</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">3</td>
+                        <td class="text-center">ISL-123</td>
+                        <td>Fehm-e-Quran-II</td>
+                        <td>General Education-5</td>
+                        <td class="text-center">1(0-1)=3ch</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">4</td>
+                        <td class="text-center">ISL-111</td>
+                        <td>Islamic Studies</td>
+                        <td>General Education-6</td>
+                        <td class="text-center">2</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">5</td>
+                        <td class="text-center">ENG-112</td>
+                        <td>Expository Writing</td>
+                        <td>
+                            Expository Writing
+                            <span class="sub-text">General Education-7</span>
+                        </td>
+                        <td class="text-center">3</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">6</td>
+                        <td class="text-center">MATH-111</td>
+                        <td>Element of set theory and Mathematical logics</td>
+                        <td>
+                            Quantitative Reasoning-I
+                            <span class="sub-text">General Education-8</span>
+                        </td>
+                        <td class="text-center">3</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">7</td>
+                        <td class="text-center">CS-111</td>
+                        <td>Application to Information and Communication Technologies (ICT)</td>
+                        <td>
+                            General Education-9
+                        </td>
+                        <td class="text-center">3 (2-1)</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td colspan="4" style="text-align: right; padding-right: 15px;">TOTAL</td>
+                        <td class="text-center">18</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+
+        <footer>
+            <p>&copy; 2026 Department of Islamic Studies, University of Swabi</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
