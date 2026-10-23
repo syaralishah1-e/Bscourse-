@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS in Islamic Studies - University of Swabi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background-color: #f4f6f9; color: #333; }
+        
+        .hero-section {
+            background: linear-gradient(135deg, #0f766e, #115e59);
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .hero-left { display: flex; align-items: center; gap: 12px; }
+        .hero-logo {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            background: #ffffff;
+            padding: 3px;
+            border-radius: 8px;
+        }
+        .hero-title h1 { font-size: 15px; font-weight: 700; text-transform: uppercase; line-height: 1.2; }
+        .hero-title p { font-size: 11px; color: #ccfbf1; margin-top: 2px; }
+        .user-profile {
+            font-size: 11px;
+            background: #ffffff;
+            color: #115e59;
+            padding: 6px 10px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+        
+        .back-nav { max-width: 500px; margin: 20px auto 0 auto; padding: 0 15px; }
+        .back-btn {
+            background-color: #e2e8f0;
+            color: #115e59;
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .main-container {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 0 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .menu-card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border: 2px solid #0f766e;
+            transition: all 0.3s ease;
+            display: block;
+        }
+        .menu-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        .menu-card h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0f766e;
+        }
+        .sub-text {
+            font-size: 12px;
+            color: #64748b;
+            margin-top: 5px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="hero-left">
+            <img src="uni.jpg" alt="University Logo" class="hero-logo">
+            <div class="hero-title">
+                <h1>Department of Islamic & Arabic Studies</h1>
+                <p>University of Swabi</p>
+            </div>
+        </div>
+        <div class="user-profile">Welcome, Dr. Syar Ali Shah</div>
+    </header>
+
+    <div class="back-nav">
+        <a href="index.html" class="back-btn">← Back to Home</a>
+    </div>
+
+    <div class="main-container">
+        <!-- Scheme of Studies Button -->
+        <a href="scheme_home.html" class="menu-card">
+            <h2>Scheme of Studies</h2>
+            <div class="sub-text">Effective from Fall 2025</div>
+        </a>
+
+        <!-- Course Contents Button -->
+        <a href="content_home.html" class="menu-card">
+            <h2>Course Contents</h2>
+            <div class="sub-text">Effective from Fall 2025</div>
+        </a>
+    </div>
+
+</body>
+</html>
+
+        <footer>
+            <p>&copy; 2026 Department of Islamic Studies, University of Swabi</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

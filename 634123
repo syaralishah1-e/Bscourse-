@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheme of Studies - University of Swabi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background-color: #f4f6f9; color: #333; }
+        .hero-section {
+            background: linear-gradient(135deg, #0f766e, #115e59);
+            color: #ffffff;
+            padding: 25px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .hero-left { display: flex; align-items: center; gap: 15px; }
+        .hero-logo {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            background: #ffffff;
+            padding: 4px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .hero-title h1 { font-size: 20px; font-weight: 700; text-transform: uppercase; line-height: 1.3; }
+        .hero-title p { font-size: 13px; color: #ccfbf1; margin-top: 3px; font-weight: 500; }
+        .user-profile {
+            font-size: 12px;
+            background: #ffffff;
+            color: #115e59;
+            padding: 8px 12px;
+            border-radius: 15px;
+            font-weight: 600;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .back-nav { max-width: 900px; margin: 30px auto 0 auto; padding: 0 20px; }
+        .back-btn {
+            background-color: #e2e8f0;
+            color: #115e59;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-block;
+        }
+        .main-container { max-width: 900px; margin: 30px auto; padding: 0 20px; display: flex; flex-direction: column; gap: 15px; }
+        .page-heading { font-size: 22px; font-weight: 700; color: #0f766e; margin-bottom: 10px; text-align: center; }
+        
+        /* سمسٹرز کے بٹنوں کی اسٹائلنگ */
+        .semester-card {
+            background-color: #ffffff;
+            color: #0f766e;
+            border: 2px solid #0f766e;
+            padding: 18px 25px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+        }
+        .semester-card:hover {
+            background-color: #0f766e;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(15, 118, 110, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="hero-section">
+        <div class="hero-left">
+            <img src="uni.jpg" alt="University Logo" class="hero-logo">
+            <div class="hero-title">
+                <h1>Department of Islamic<br>and Arabic Studies</h1>
+                <p>University of Swabi</p>
+            </div>
+        </div>
+        <div class="user-profile">Welcome, Dr Syar Ali Shah</div>
+    </header>
+
+    <div class="back-nav">
+        <a href="bs_islamic.html" class="back-btn">← Back</a>
+    </div>
+
+    <div class="main-container">
+        <div class="page-heading">Scheme of Studies</div>
+        
+        <!-- ہر سمسٹر کے لیے الگ الگ فائل کا لنک -->
+        <a href="scheme_sem1.html" class="semester-card">Semester 1</a>
+        <a href="scheme_sem2.html" class="semester-card">Semester 2</a>
+        <a href="scheme_sem3.html" class="semester-card">Semester 3</a>
+        <a href="scheme_sem4.html" class="semester-card">Semester 4</a>
+        <a href="scheme_sem5.html" class="semester-card">Semester 5</a>
+        <a href="scheme_sem6.html" class="semester-card">Semester 6</a>
+        <a href="scheme_sem7.html" class="semester-card">Semester 7</a>
+        <a href="scheme_sem8.html" class="semester-card">Semester 8</a>
+    </div>
+</body>
+</html>
+
+        <footer>
+            <p>&copy; 2026 Department of Islamic Studies, University of Swabi</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
