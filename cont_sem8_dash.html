@@ -40,6 +40,8 @@
             text-decoration: none;
             font-size: 11px;
             font-weight: bold;
+            display: inline-block;
+            direction: ltr;
         }
         /* Header Box Layout */
         .header-box {
@@ -79,10 +81,12 @@
             line-height: 1.2;
             letter-spacing: -0.3px;
             margin: 0 0 3px 0;
+            direction: ltr;
         }
         .title-area p {
             font-size: 0.75rem;
             margin: 0;
+            direction: ltr;
         }
         .welcome-box {
             background: white;
@@ -96,14 +100,16 @@
             width: 95px;
             flex-shrink: 0;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            direction: ltr;
         }
         /* Semester Heading */
         .semester-title {
             text-align: center;
             color: var(--primary-color);
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: bold;
             margin-bottom: 20px;
+            direction: ltr;
         }
         /* Courses Links List */
         .course-list {
@@ -118,12 +124,14 @@
             color: var(--primary-color);
             padding: 12px 15px;
             border-radius: 10px;
-            text-align: center;
+            text-align: left;
             text-decoration: none;
             font-size: 0.95rem;
             font-weight: bold;
             box-shadow: 0 2px 4px rgba(0,0,0,0.02);
             transition: all 0.2s ease;
+            direction: ltr;
+            display: block;
         }
         .course-card:hover {
             background-color: var(--primary-color);
@@ -147,7 +155,7 @@
     
     <!-- Top Back Button -->
     <div class="top-nav">
-        <a href="content_home.html" class="back-btn">dashboard ←</a>
+        <a href="content_home.html" class="back-btn">← dashboard</a>
     </div>
 
     <!-- Header Box -->
@@ -179,8 +187,8 @@
     </div>
 
     <!-- Footer Copyright Line -->
-    <div class="footer">
-        Department of Islamic and Arabic Studies, University of 2026 &copy; Swabi. All rights reserved.
+    <div class="footer" dir="ltr">
+        &copy; 2026 Department of Islamic and Arabic Studies, University of Swabi. All rights reserved.
     </div>
 
 </div>
