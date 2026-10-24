@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semester 7 Dashboard - University of Swabi</title>
+    <title>Semester 7 - University of Swabi</title>
     <style>
         :root {
             --primary-color: #0b4e29;
@@ -23,9 +23,25 @@
             max-width: 100%;
             margin: auto;
             background: #fff;
-            padding: 10px;
+            padding: 15px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        /* Top Back Button */
+        .top-nav {
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        .back-btn {
+            background-color: #e2e8f0;
+            color: #333;
+            padding: 6px 12px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 11px;
+            font-weight: bold;
+            display: inline-block;
+            direction: ltr;
         }
         /* Header Box Layout */
         .header-box {
@@ -36,7 +52,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
         .logo-area {
             background: white;
@@ -65,10 +81,12 @@
             line-height: 1.2;
             letter-spacing: -0.3px;
             margin: 0 0 3px 0;
+            direction: ltr;
         }
         .title-area p {
             font-size: 0.75rem;
             margin: 0;
+            direction: ltr;
         }
         .welcome-box {
             background: white;
@@ -82,61 +100,42 @@
             width: 95px;
             flex-shrink: 0;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            direction: ltr;
         }
-        /* Dashboard Title */
-        .dash-title {
+        /* Semester Heading */
+        .semester-title {
             text-align: center;
-            background-color: #edf2f7;
-            padding: 10px;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-weight: bold;
             color: var(--primary-color);
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            direction: ltr;
         }
-        /* Course List styling */
+        /* Courses Links List */
         .course-list {
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            margin-bottom: 15px;
+            gap: 12px;
+            margin-bottom: 20px;
         }
         .course-card {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #fff;
-            border: 1px solid #ccc;
-            padding: 10px 12px;
-            border-radius: 8px;
+            background: #ffffff;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 12px 15px;
+            border-radius: 10px;
+            text-align: right;
             text-decoration: none;
-            color: var(--text-color);
-            transition: background 0.2s;
+            font-size: 0.95rem;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            transition: all 0.2s ease;
         }
         .course-card:hover {
-            background-color: #f9f9f9;
+            background-color: var(--primary-color);
+            color: white;
         }
-        .course-info {
-            display: flex;
-            flex-direction: column;
-        }
-        .course-name {
-            font-weight: bold;
-            font-size: 0.9rem;
-            color: var(--primary-color);
-        }
-        .course-code {
-            font-size: 0.75rem;
-            color: #666;
-        }
-        .course-ch {
-            background-color: #edf2f7;
-            padding: 4px 8px;
-            border-radius: 6px;
-            font-size: 0.75rem;
-            font-weight: bold;
-        }
+        /* Footer */
         .footer {
             text-align: center;
             margin-top: 20px;
@@ -144,12 +143,18 @@
             border-top: 1px solid #ddd;
             font-size: 11px;
             color: #666;
+            direction: ltr;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
+    
+    <!-- Top Back Button -->
+    <div class="top-nav">
+        <a href="content_home.html" class="back-btn">dashboard ←</a>
+    </div>
 
     <!-- Header Box -->
     <div class="header-box">
@@ -165,56 +170,32 @@
         </div>
     </div>
 
-    <!-- Dashboard Heading -->
-    <div class="dash-title">
-        BS Islamic Studies - Semester 7 Dashboard
+    <!-- Semester Heading -->
+    <div class="semester-title">
+        Semester 7
     </div>
 
     <!-- Courses Links List -->
     <div class="course-list">
         <a href="cont_sem7_lac1.html" class="course-card">
-            <div class="course-info">
-                <span class="course-name">1. Research Methodology</span>
-                <span class="course-code">ISL-441</span>
-            </div>
-            <div class="course-ch">3ch</div>
+            <span dir="ltr" style="display: block; text-align: left;">1. Research Methodology</span>
         </a>
-
         <a href="cont_sem7_lac2.html" class="course-card">
-            <div class="course-info">
-                <span class="course-name">2. Textual Study of Muslim Family Laws-II</span>
-                <span class="course-code">ISL-442</span>
-            </div>
-            <div class="course-ch">3ch</div>
+            <span dir="ltr" style="display: block; text-align: left;">2. Textual Study of Muslim Family Laws-II</span>
         </a>
-
         <a href="cont_sem7_lac3.html" class="course-card">
-            <div class="course-info">
-                <span class="course-name">3. Introduction to World Religions-II (Hinduism, Buddhism, Sikhism and Jainism)</span>
-                <span class="course-code">ISL-443</span>
-            </div>
-            <div class="course-ch">3ch</div>
+            <span dir="ltr" style="display: block; text-align: left;">3. Introduction to World Religions-II (Hinduism, Buddhism, Sikhism and Jainism)</span>
         </a>
-
         <a href="cont_sem7_lac4.html" class="course-card">
-            <div class="course-info">
-                <span class="course-name">4. Islamic Law of Inheritance</span>
-                <span class="course-code">ISL-444</span>
-            </div>
-            <div class="course-ch">3ch</div>
+            <span dir="ltr" style="display: block; text-align: left;">4. Islamic Law of Inheritance</span>
         </a>
-
         <a href="cont_sem7_lac5.html" class="course-card">
-            <div class="course-info">
-                <span class="course-name" dir="ltr" style="text-align: right;">5. Arabic Language-III</span>
-                <span class="course-code">ARB-411</span>
-            </div>
-            <div class="course-ch">3ch</div>
+            <span dir="ltr" style="display: block; text-align: left;">5. Arabic Language-III</span>
         </a>
     </div>
 
     <!-- Footer Copyright Line -->
-    <div class="footer">
+    <div class="footer" dir="ltr">
         &copy; 2026 Department of Islamic and Arabic Studies, University of Swabi. All rights reserved.
     </div>
 
