@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabic Grammar - University of Swabi</title>
+    <style>
+        :root {
+            --primary-color: #0b4e29;
+            --text-color: #333333;
+            --card-bg: #ffffff;
+            --bg-color: #f4f7f6;
+        }
+        body {
+            font-family: 'Jameel Noori Nastaleeq', Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 10px;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            max-width: 100%;
+            margin: auto;
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        /* Navigation Buttons Row */
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        .nav-btn {
+            background-color: #e2e8f0;
+            color: #333;
+            padding: 6px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        /* Header Box Layout */
+        .header-box {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        .logo-area {
+            background: white;
+            border-radius: 12px;
+            width: 65px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+        .logo-area img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .title-area {
+            text-align: center;
+            padding: 0 8px;
+            flex-grow: 1;
+        }
+        .title-area h1 {
+            font-size: 0.85rem;
+            font-weight: bold;
+            line-height: 1.2;
+            letter-spacing: -0.3px;
+            margin: 0 0 3px 0;
+        }
+        .title-area p {
+            font-size: 0.75rem;
+            margin: 0;
+        }
+        .welcome-box {
+            background: white;
+            color: var(--text-color);
+            padding: 8px 10px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 0.7rem;
+            font-weight: 600;
+            line-height: 1.2;
+            width: 95px;
+            flex-shrink: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        /* Tables styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 8px;
+            vertical-align: middle;
+        }
+        .top-info-row td {
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+            font-size: 11px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- Top Navigation Buttons (Back to previous course & Dashboard) -->
+    <div class="nav-buttons">
+        <a href="cont_sem3_dash.html" class="nav-btn">dashboard</a>
+        <a href="content_home.html" class="nav-btn" style="background-color: var(--primary-color); color: white;">main Dashboard ⌂</a>
+      <a href="cont_sem3_lac4.html" class="nav-btn">← Back</a>
+    </div>
+
+    <!-- Header Box -->
+    <div class="header-box">
+        <div class="welcome-box">
+            Welcome, Dr. Syar Ali Shah
+        </div>
+        <div class="title-area">
+            <h1>DEPARTMENT OF ISLAMIC AND ARABIC STUDIES</h1>
+            <p>University of Swabi</p>
+        </div>
+        <div class="logo-area">
+            <img src="uni.jpg" alt="Logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'color:#0b4e29; font-weight:bold; font-size:0.6rem;\'>LOGO</span>'">
+        </div>
+    </div>
+
+    <!-- Top Course Info Table (Introduction & Objectives removed completely) -->
+    <table>
+        <tr class="top-info-row">
+            <td style="width: 15%; font-weight: bold;" class="center-text">2ch</td>
+            <td style="width: 25%; font-weight: bold;" class="center-text">ARB-221</td>
+            <td style="width: 45%; font-weight: bold; text-align: right; padding-right: 15px;">Arabic Grammar</td>
+            <td style="width: 15%; font-weight: bold; background-color: #edf2f7;" class="center-text">Course Name</td>
+        </tr>
+    </table>
+
+    <!-- Weekly Breakdown Table -->
+    <table>
+        <tr>
+            <th style="width: 15%;">نمبر شمار</th>
+            <th style="width: 55%;">موضوع</th>
+            <th style="width: 30%;">ہفتہ</th>
+        </tr>
+        <tr>
+            <td class="center-text">1</td>
+            <td style="direction: ltr; text-align: right;">الدرس الأول و الثاني</td>
+            <td class="center-text">1<sup>st</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">2</td>
+            <td style="direction: ltr; text-align: right;">الدرس الثالث</td>
+            <td class="center-text">2<sup>nd</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">3</td>
+            <td style="direction: ltr; text-align: right;">الدرس الرابع</td>
+            <td class="center-text">3<sup>rd</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">4</td>
+            <td style="direction: ltr; text-align: right;">الدرس الخامس</td>
+            <td class="center-text">4<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">5</td>
+            <td style="direction: ltr; text-align: right;">الدرس السادس</td>
+            <td class="center-text">5<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">6</td>
+            <td style="direction: ltr; text-align: right;">الدرس السابع</td>
+            <td class="center-text">6<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">7</td>
+            <td style="direction: ltr; text-align: right;">الدرس الثامن</td>
+            <td class="center-text">7<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">8</td>
+            <td style="direction: ltr; text-align: right;">الدرس التاسع</td>
+            <td class="center-text">8<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">9</td>
+            <td style="direction: ltr; text-align: right;">الدرس العاشر</td>
+            <td class="center-text">9<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">10</td>
+            <td style="direction: ltr; text-align: right;">الدرس الحادي عشر و الثاني عشر</td>
+            <td class="center-text">10<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">11</td>
+            <td style="direction: ltr; text-align: right;">الدرس الثالث عشر (أ)</td>
+            <td class="center-text">11<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">12</td>
+            <td style="direction: ltr; text-align: right;">الدرس الثالث عشر (ب)</td>
+            <td class="center-text">12<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">13</td>
+            <td style="direction: ltr; text-align: right;">الدرس الثالث عشر (ج)</td>
+            <td class="center-text">13<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">14</td>
+            <td style="direction: ltr; text-align: right;">الدرس الرابع عشر</td>
+            <td class="center-text">14<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">15</td>
+            <td style="direction: ltr; text-align: right;">الدرس الخامس عشر</td>
+            <td class="center-text">15<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">16</td>
+            <td style="direction: ltr; text-align: right;">الدرس السادس عشر إلى آخره</td>
+            <td class="center-text">16<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td colspan="3" class="center-text" style="background-color: #f9f9f9; font-weight: bold;">مطالعاتی کتاب</td>
+        </tr>
+        <tr>
+            <td class="center-text">اول</td>
+            <td colspan="2">دروس اللغة العربية– الجزء الأول- ف عبد الرحيم</td>
+        </tr>
+    </table>
+
+    <!-- Footer Copyright Line -->
+    <div class="footer">
+        &copy; 2026 Department of Islamic and Arabic Studies, University of Swabi. All rights reserved.
+    </div>
+
+</div>
+
+</body>
+</html>
