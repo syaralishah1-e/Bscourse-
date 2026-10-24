@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textual Study of Hadith-I - University of Swabi</title>
+    <style>
+        :root {
+            --primary-color: #0b4e29;
+            --text-color: #333333;
+            --card-bg: #ffffff;
+            --bg-color: #f4f7f6;
+        }
+        body {
+            font-family: 'Jameel Noori Nastaleeq', Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 10px;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            max-width: 100%;
+            margin: auto;
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        /* Navigation Buttons Row */
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        .nav-btn {
+            background-color: #e2e8f0;
+            color: #333;
+            padding: 6px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        /* Header Box Layout */
+        .header-box {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        .logo-area {
+            background: white;
+            border-radius: 12px;
+            width: 65px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+        .logo-area img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .title-area {
+            text-align: center;
+            padding: 0 8px;
+            flex-grow: 1;
+        }
+        .title-area h1 {
+            font-size: 0.85rem;
+            font-weight: bold;
+            line-height: 1.2;
+            letter-spacing: -0.3px;
+            margin: 0 0 3px 0;
+        }
+        .title-area p {
+            font-size: 0.75rem;
+            margin: 0;
+        }
+        .welcome-box {
+            background: white;
+            color: var(--text-color);
+            padding: 8px 10px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 0.7rem;
+            font-weight: 600;
+            line-height: 1.2;
+            width: 95px;
+            flex-shrink: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        /* Tables styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 8px;
+            vertical-align: middle;
+        }
+        .top-info-row td {
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+            font-size: 11px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- Top Navigation Buttons (Back & Next) -->
+    <div class="nav-buttons">
+        <a href="cont_sem2_lac2.html" class="nav-btn">Next →</a>
+        <a href="content_home.html" class="nav-btn" style="background-color: var(--primary-color); color: white;">main Dashboard ⌂</a>
+      <a href="cont_sem2_dash.html" class="nav-btn">dashboard</a>
+    </div>
+
+    <!-- Header Box -->
+    <div class="header-box">
+        <div class="welcome-box">
+            Welcome, Dr. Syar Ali Shah
+        </div>
+        <div class="title-area">
+            <h1>DEPARTMENT OF ISLAMIC AND ARABIC STUDIES</h1>
+            <p>University of Swabi</p>
+        </div>
+        <div class="logo-area">
+            <img src="uni.jpg" alt="Logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'color:#0b4e29; font-weight:bold; font-size:0.6rem;\'>LOGO</span>'">
+        </div>
+    </div>
+
+    <!-- Top Course Info Table (Introduction & Objectives removed completely) -->
+    <table>
+        <tr class="top-info-row">
+            <td style="width: 15%; font-weight: bold;" class="center-text">3ch</td>
+            <td style="width: 25%; font-weight: bold;" class="center-text">ISL-132</td>
+            <td style="width: 45%; font-weight: bold; text-align: right; padding-right: 15px;">Textual Study of Hadith-I</td>
+            <td style="width: 15%; font-weight: bold; background-color: #edf2f7;" class="center-text">Course Name</td>
+        </tr>
+    </table>
+
+    <!-- Weekly Breakdown Table -->
+    <table>
+        <tr>
+            <th style="width: 15%;">نمبر شمار</th>
+            <th style="width: 55%;">موضوع</th>
+            <th style="width: 30%;">ہفتہ</th>
+        </tr>
+        <tr>
+            <td class="center-text">1</td>
+            <td>
+                باب بر الوالدين وأنهما أحق به. (حديث: 1-4)<br>
+                باب تقديم بر الوالدين على التطوع بالصلاة وغيرها. (حديث نمبر: 5)<br>
+                باب تقديم بر الوالدين على التطوع بالصلاة وغيرها. (حديث نمبر: 6)
+            </td>
+            <td class="center-text">1<sup>st</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">2</td>
+            <td>
+                باب رغم أنف من أدرك أبويه أو أحدهما عند الكبر فلم يدخل الجنة (حديث نمبر: 7-9)<br>
+                باب فضل صلة أصدقاء الأب والأم ونحوها (حديث نمبر: 10-12)<br>
+                باب تفسير البر والإثم (حديث نمبر: 13-14)
+            </td>
+            <td class="center-text">2<sup>nd</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">3</td>
+            <td>
+                باب صلة الرحم وتحريم قطيعتها. (حديث نمبر: 15-17)<br>
+                باب صلة الرحم وتحريم قطيعتها. (حديث نمبر: 18-21)<br>
+                باب النهي عن التحاسد والتباغض والتدابر. (22-23)
+            </td>
+            <td class="center-text">3<sup>rd</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">4</td>
+            <td>
+                باب تحريم الهجر فوق ثلاث بلا عذر شرعي. (24-26)<br>
+                باب تحريم الظن والتجسس والتنافس والتناجش ونحوها. (27-31)<br>
+                باب تحريم ظلم المسلم وخخذله واحتقاره ودمه وعرضه وماله. (32-33)
+            </td>
+            <td class="center-text">4<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">5</td>
+            <td>
+                باب النهي عن الشحناء والتهاجر. (34-36)<br>
+                باب في فضل الحب في الله (37-38)<br>
+                باب فضل عيادة المريض. (39-42)
+            </td>
+            <td class="center-text">5<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">6</td>
+            <td>
+                باب فضل عيادة المريض. (43) &nbsp;&nbsp;&nbsp; باب ثواب المؤمن فيما يصيبه (44-50)<br>
+                باب ثواب المؤمن فيما يصيبه (51-54)
+            </td>
+            <td class="center-text">6<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">7</td>
+            <td>
+                باب تحريم الظلم(55) &nbsp;&nbsp;&nbsp; باب تحريم الظلم(56-62)<br>
+                باب نصر الأخ ظالماً أو مظلوماً (63-65)
+            </td>
+            <td class="center-text">7<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">8</td>
+            <td>
+                باب تراحم المؤمنين وتعاطفهم وتعااضدهم. (66-69) &nbsp;&nbsp;&nbsp; باب النهي عن السبابه (70)<br>
+                باب استحباب العفو والتواضع. (71) &nbsp;&nbsp;&nbsp; باب تحريم الغيبة. (72)<br>
+                باب بشارة من ستر الله تعالى عيبه(73-74) &nbsp;&nbsp;&nbsp; باب مداراة من يتقى فحشه. (75)
+            </td>
+            <td class="center-text">8<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">9</td>
+            <td>
+                باب فضل الرفق. (76-80) &nbsp;&nbsp;&nbsp; باب النهي عن لعن الدواب وغيرها. (81-86)<br>
+                باب من لعنه النبيّ أو سبه (87-93)
+            </td>
+            <td class="center-text">9<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">10</td>
+            <td>
+                باب من لعنه النبيّ أو سبه (94-96) &nbsp;&nbsp;&nbsp; باب ذم ذي الوجهين وتحريم فعله. (97-99)<br>
+                باب تحريم الكذب وبيان ما يباح منه. (100)
+            </td>
+            <td class="center-text">10<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">11</td>
+            <td>
+                باب تحريم النميمة. ص باب قبح الكذب وحسن الصدق وفضله. (101-104)<br>
+                باب فضل من يملك نفسه عند الغضب وبأى شيء يذهب الغضب. (105-109)<br>
+                باب خلق الإنسان خلقا لا يتمالك. و باب النهي عن ضرب الوجه. (110-115)
+            </td>
+            <td class="center-text">11<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">12</td>
+            <td>
+                باب الوعيد الشديد لمن عذَّب الناس بغير حق. (116-118)<br>
+                باب أمر من مر بسلاح في مسجد (119-123)<br>
+                باب النهي عن الإشارة بالسلاح و باب فضل إزالة الأذى عن الطريق. (124-131)
+            </td>
+            <td class="center-text">12<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">13</td>
+            <td>
+                باب تحريم تعذيب الهرة ونحوها و باب الوصية بالجار والإحسان إليه (132-142)<br>
+                باب استحباب طلاقة الوجه عند اللقاء. -- باب استحباب مجالس الصالحين (143-145)<br>
+                باب فضل الإحسان إلى البنات (146--150)
+            </td>
+            <td class="center-text">13<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">14</td>
+            <td>معروضی حصہ</td>
+            <td class="center-text">14<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">15</td>
+            <td>معروضی حصہ</td>
+            <td class="center-text">15<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td class="center-text">16</td>
+            <td>معروضی حصہ</td>
+            <td class="center-text">16<sup>th</sup></td>
+        </tr>
+        <tr>
+            <td colspan="3" class="center-text" style="background-color: #f9f9f9; font-weight: bold;">مطالعاتی کتب</td>
+        </tr>
+        <tr>
+            <td class="center-text">اول</td>
+            <td colspan="2">امام مسلم بن حجاج = صحيح مسلم</td>
+        </tr>
+        <tr>
+            <td class="center-text">دوم</td>
+            <td colspan="2">مطالعہ متن حدیث (اول) = مولانا محمد بختیار، لیکچرر شعبہ اسلامیات و عربی جامعہ صوابی</td>
+        </tr>
+    </table>
+
+    <!-- Footer Copyright Line -->
+    <div class="footer">
+        &copy; 2026 Department of Islamic and Arabic Studies, University of Swabi. All rights reserved.
+    </div>
+
+</div>
+
+</body>
+</html>
