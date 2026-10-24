@@ -26,6 +26,7 @@
             padding: 10px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            box-sizing: border-box;
         }
         /* Navigation Buttons Row */
         .nav-buttons {
@@ -42,6 +43,8 @@
             text-decoration: none;
             font-size: 11px;
             font-weight: bold;
+            display: inline-block;
+            direction: ltr;
         }
         /* Header Box Layout */
         .header-box {
@@ -81,10 +84,12 @@
             line-height: 1.2;
             letter-spacing: -0.3px;
             margin: 0 0 3px 0;
+            direction: ltr;
         }
         .title-area p {
             font-size: 0.75rem;
             margin: 0;
+            direction: ltr;
         }
         .welcome-box {
             background: white;
@@ -98,6 +103,7 @@
             width: 95px;
             flex-shrink: 0;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            direction: ltr;
         }
         /* Tables styling */
         table {
@@ -105,6 +111,7 @@
             border-collapse: collapse;
             margin-bottom: 15px;
             font-size: 13px;
+            table-layout: fixed;
         }
         table, th, td {
             border: 1px solid #ccc;
@@ -112,6 +119,7 @@
         th, td {
             padding: 8px;
             vertical-align: middle;
+            word-wrap: break-word;
         }
         .top-info-row td {
             background-color: #f9f9f9;
@@ -135,15 +143,15 @@
 
 <div class="container">
     
-    <!-- Top Navigation Buttons (Back on left, Dashboard in middle, Next on right) -->
+    <!-- Top Navigation Buttons -->
     <div class="nav-buttons">
         <a href="cont_sem7_lac2.html" class="nav-btn">Next →</a>
-        <a href="content_home.html" class="nav-btn" style="background-color: var(--primary-color); color: white;">main Dashboard ⌂</a>
+        <a href="content_home.html" class="nav-btn" style="background-color: var(--primary-color); color: white;">⌂ main Dashboard</a>
         <a href="cont_sem7_dash.html" class="nav-btn">dashboard</a>
     </div>
 
     <!-- Header Box -->
-    < class="header-box">
+    <div class="header-box">
         <div class="welcome-box">
             Welcome, Dr. Syar Ali Shah
         </div>
@@ -151,12 +159,12 @@
             <h1>DEPARTMENT OF ISLAMIC AND ARABIC STUDIES</h1>
             <p>University of Swabi</p>
         </div>
-        <dev class="logo-area">
+        <div class="logo-area">
             <img src="uni.jpg" alt="Logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'color:#0b4e29; font-weight:bold; font-size:0.6rem;\'>LOGO</span>'">
         </div>
     </div>
 
-    <!-- Top Course Info Table (Introduction & Objectives removed completely) -->
+    <!-- Top Course Info Table (Introduction & Objectives removed) -->
     <table>
         <tr class="top-info-row">
             <td style="width: 15%; font-weight: bold;" class="center-text">3ch</td>
@@ -175,77 +183,77 @@
         </tr>
         <tr>
             <td class="center-text">1</td>
-            <td>1: تحقیق کا لغوی مفہوم 2: تحقیق کا اصطلاحی مفہوم 3: تحقیق کی اہمیت و ضرورت</td>
+            <td>1۔ تحقیق کا لغوی مفہوم ۲۔ تحقیق کا اصطلاحی مفہوم ۳۔ تحقیق کی اہمیت و ضرورت</td>
             <td class="center-text">1<sup>st</sup></td>
         </tr>
         <tr>
             <td class="center-text">2</td>
-            <td>1: بیانیہ 2: تاریخی 3: تجربیاتی</td>
+            <td>1۔ بیانیہ ۲۔ تاریخی ۳۔ تجربی</td>
             <td class="center-text">2<sup>nd</sup></td>
         </tr>
         <tr>
             <td class="center-text">3</td>
-            <td>1: مسئلہ تحقیق کا تعارف 2: مسئلہ تحقیق کے مصادر 3: مسئلہ تحقیق کے تعیّن کا طریقہ کار 4: فرضیہ تحقیق</td>
+            <td>1۔ مسئلہ تحقیق کا تعارف ۲۔ مسئلہ تحقیق کے مصادر ۳۔ مسئلہ تحقیق کے تعیین کا طریقہ کار ۴۔ فرضیہ تحقیق</td>
             <td class="center-text">3<sup>rd</sup></td>
         </tr>
         <tr>
             <td class="center-text">4</td>
-            <td>1: موضوع تحقیق کا تعارف 2: موضوع تحقیق کے ضروری عناصر 3: موضوع تحقیق کی اہمیت</td>
+            <td>1۔ موضوع تحقیق کا تعارف ۲۔ موضوع تحقیق کے ضروری عناصر ۳۔ موضوع تحقیق کی اہمیت</td>
             <td class="center-text">4<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">5</td>
-            <td>1: خاکہ تحقیق کا مفہوم 2: خاکہ تحقیق کی اہمیت۔ خاکہ تحقیق کے عناصر</td>
+            <td>1۔ خاکہ تحقیق کا مفہوم ۲۔ خاکہ تحقیق کی اہمیت ۳۔ خاکہ تحقیق کے عناصر</td>
             <td class="center-text">5<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">6</td>
-            <td>1: مصادر و مراجع کا تعیّن 2: متعلقہ مواد کا تعیّن 3: فہارِس کتب</td>
+            <td>1۔ مصادر و مرابع کا تعیین ۲۔ متعلقہ مواد کا تعیین ۳۔ مطالعات کتب</td>
             <td class="center-text">6<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">7</td>
-            <td>1: مواد تحقیق کے مسائل۔ مواد تحقیق کے آلائش۔ مواد تحقیق کے لیے لائبریری کا استعمال</td>
+            <td>1۔ مواد تحقیق کے مسائل۔ مواد تحقیق کے حصول مواد کے لیے لائبریری کا استعمال</td>
             <td class="center-text">7<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">8</td>
-            <td>1: سوالنامہ 2: ملاحظات 3: انٹرویو</td>
+            <td>1۔ سوالنامہ ۲۔ ملاحظات ۳۔ انٹرویو</td>
             <td class="center-text">8<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">9</td>
-            <td>1: مواد کی حیثیت کا تعیّن 2: مواد کا جائزہ۔ مواد کا انتخاب</td>
+            <td>1۔ مواد کی حیثیت کا تعیین ۲۔ مواد کا جائزہ۔ مواد کا انتخاب</td>
             <td class="center-text">9<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">10</td>
-            <td>1: اصطلاحات کا جاننا 2: اسالیب تحریر کو جاننا۔ مناسب اسلوب کا انتخاب</td>
+            <td>1۔ اصطلاحات کا جاننا ۲۔ اسالیب تحریر کا جاننا۔ مناسب اسلوب کا انتخاب</td>
             <td class="center-text">10<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">11</td>
-            <td>1: بنیادی مصادر تحقیق کا مفہوم۔ بنیادی مصادر تحقیق کا تعیّن 3: بنیادی مصادر تحقیق کی اہمیت</td>
+            <td>1۔ بنیادی مصادر تحقیق کا مفہوم۔ بنیادی مصادر تحقیق کا تعیین ۳۔ بنیادی مصادر تحقیق کی اہمیت</td>
             <td class="center-text">11<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">12</td>
-            <td>1: ثانوی مصادر تحقیق کا مفہوم۔ ثانوی مصادر تحقیق کا تعیّن۔ ثانوی مصادر تحقیق کی اہمیت</td>
+            <td>1۔ ثانوی مصادر تحقیق کا مفہوم۔ ثانوی مصادر تحقیق کا تعیین۔ ثانوی مصادر تحقیق کی اہمیت</td>
             <td class="center-text">12<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">13</td>
-            <td>1: عنوانی جملہ 2: اختتامی جملہ۔ پیراگراف 3: اختصارات</td>
+            <td>1۔ عنوانی جملہ ۲۔ اختتامی جملہ۔ پیراگراف ۳۔ اختصارات</td>
             <td class="center-text">13<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">14</td>
-            <td>1: حواشی و حوالہ جات کا تعارف 2: حواشی و حوالہ جات کی اہمیت۔ حواشی حوالہ جات کے اسالیب</td>
+            <td>1۔ حواشی اور حوالہ جات کا تعارف ۲۔ حواشی اور حوالہ جات کی اہمیت۔ حواشی اور حوالہ جات کے اسالیب</td>
             <td class="center-text">14<sup>th</sup></td>
         </tr>
         <tr>
             <td class="center-text">15</td>
-            <td>1: مقدمہ 2: ابواب 3: نتائج 4: فهارس و ضمیمہ جات</td>
+            <td>1۔ مقدمہ ۲۔ ابواب ۳۔ نتائج ۴۔ فهارس و ضمیمہ جات</td>
             <td class="center-text">15<sup>th</sup></td>
         </tr>
         <tr>
@@ -263,11 +271,12 @@
     </table>
 
     <!-- Footer Copyright Line -->
-    <div class="footer">
+    <div class="footer" dir="ltr">
         &copy; 2026 Department of Islamic and Arabic Studies, University of Swabi. All rights reserved.
     </div>
 
 </div>
 
 </body>
-</html>
+    </html>
+    
