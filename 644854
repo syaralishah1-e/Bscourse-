@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester 4 - University of Swabi</title>
+    <style>
+        :root {
+            --primary-color: #0b4e29;
+            --text-color: #333333;
+            --card-bg: #ffffff;
+            --bg-color: #f4f7f6;
+        }
+        body {
+            font-family: 'Jameel Noori Nastaleeq', Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 10px;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            max-width: 100%;
+            margin: auto;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        /* Top Back Button */
+        .nav-buttons {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 15px;
+        }
+        .nav-btn {
+            background-color: #e2e8f0;
+            color: #333;
+            padding: 6px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        /* Header Box Layout */
+        .header-box {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .logo-area {
+            background: white;
+            border-radius: 12px;
+            width: 65px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+        .logo-area img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .title-area {
+            text-align: center;
+            padding: 0 8px;
+            flex-grow: 1;
+        }
+        .title-area h1 {
+            font-size: 0.85rem;
+            font-weight: bold;
+            line-height: 1.2;
+            letter-spacing: -0.3px;
+            margin: 0 0 3px 0;
+        }
+        .title-area p {
+            font-size: 0.75rem;
+            margin: 0;
+        }
+        .welcome-box {
+            background: white;
+            color: var(--text-color);
+            padding: 8px 10px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 0.7rem;
+            font-weight: 600;
+            line-height: 1.2;
+            width: 95px;
+            flex-shrink: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section-title {
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        /* Course Cards / Boxes */
+        .course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .course-card {
+            background: #ffffff;
+            border: 2px solid var(--primary-color);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-size: 1rem;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            transition: all 0.2s ease;
+            direction: ltr;
+        }
+        .course-card:hover {
+            background-color: #f1f8f5;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+            font-size: 11px;
+            color: #666;
+            direction: ltr;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- Top Back Button -->
+    <div class="nav-buttons">
+        <a href="content_home.html" class="nav-btn">dashboard</a>
+    <a href="bs_islamic.html" class="nav-btn" style="background-color: var(--primary-color); color: white;">main Dashboard ⌂</a>
+    </div>
+
+    <!-- Header Box -->
+    <div class="header-box">
+        <div class="welcome-box">
+            Welcome, Dr. Syar Ali Shah
+        </div>
+        <div class="title-area">
+            <h1>DEPARTMENT OF ISLAMIC AND ARABIC STUDIES</h1>
+            <p>University of Swabi</p>
+        </div>
+        <div class="logo-area">
+            <img src="uni.jpg" alt="Logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<span style=\'color:#0b4e29; font-weight:bold; font-size:0.6rem;\'>LOGO</span>'">
+        </div>
+    </div>
+
+    <div class="section-title">Semester 4</div>
+
+    <!-- 5 Course Boxes Links -->
+    <div class="course-list">
+        
+        <a href="cont_sem4_lac1.html" class="course-card">
+            1. Islamic Ethics and Tasauof
+        </a>
+
+        <a href="cont_sem4_lac2.html" class="course-card">
+            2. Tajweed ul Quran
+        </a>
+
+        <a href="cont_sem4_lac3.html" class="course-card">
+            3. Introduction to Tafsir
+        </a>
+
+        <a href="cont_sem4_lac4.html" class="course-card">
+            4. Islamic Fiqh ul Jinayat
+        </a>
+
+        <a href="cont_sem4_lac5.html" class="course-card">
+            5. Islam and Political Ideologies
+        </a>
+
+    </div>
+
+    <!-- Footer Copyright Line -->
+    <div class="footer">
+        &copy;  Department of Islamic Studies, University of Swabi 2026
+    </div>
+
+</div>
+
+</body>
+</html>
